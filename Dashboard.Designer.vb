@@ -22,30 +22,31 @@ Partial Class Dashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim ChartArea25 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Series49 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series50 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea26 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Series51 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series52 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea27 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Series53 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Series54 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.components = New System.ComponentModel.Container()
+        Dim ChartArea4 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Series7 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series8 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea5 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Series9 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series10 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea6 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Series11 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Series12 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Me.PanelLeft = New System.Windows.Forms.Panel()
         Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.Label13 = New System.Windows.Forms.Label()
+        Me.LabelTimerCompressor = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
+        Me.LabelTime = New System.Windows.Forms.Label()
+        Me.LabelDateDay = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
+        Me.LabelPressure = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.ButtonMinPressure = New System.Windows.Forms.Button()
+        Me.ButtonPlusPressure = New System.Windows.Forms.Button()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Panel17 = New System.Windows.Forms.Panel()
@@ -53,26 +54,31 @@ Partial Class Dashboard
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
+        Me.LabelAmpSpo = New System.Windows.Forms.Label()
+        Me.ButtonMin = New System.Windows.Forms.Button()
+        Me.ButtonPlus = New System.Windows.Forms.Button()
         Me.Label35 = New System.Windows.Forms.Label()
+        Me.LabelB = New System.Windows.Forms.Label()
+        Me.LabelA = New System.Windows.Forms.Label()
         Me.Panel18 = New System.Windows.Forms.Panel()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
+        Me.LabelAmpEcg = New System.Windows.Forms.Label()
+        Me.ButtonMinEcg = New System.Windows.Forms.Button()
+        Me.ButtonPlusEcg = New System.Windows.Forms.Button()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Panel_I3 = New System.Windows.Forms.Panel()
+        Me.Panel_I2 = New System.Windows.Forms.Panel()
+        Me.Panel_I1 = New System.Windows.Forms.Panel()
+        Me.LabelIDControl2 = New System.Windows.Forms.Label()
+        Me.LabelIDControl1 = New System.Windows.Forms.Label()
+        Me.ButtonIDMin2 = New System.Windows.Forms.Button()
+        Me.ButtonIDMin1 = New System.Windows.Forms.Button()
+        Me.ButtonIDPlus2 = New System.Windows.Forms.Button()
+        Me.ButtonIDPlus1 = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -87,27 +93,34 @@ Partial Class Dashboard
         Me.PanelTop = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Chart3 = New System.Windows.Forms.DataVisualization.Charting.Chart()
+        Me.LabelType = New System.Windows.Forms.Label()
+        Me.Chart1 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.Panel13 = New System.Windows.Forms.Panel()
         Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.Chart1 = New System.Windows.Forms.DataVisualization.Charting.Chart()
-        Me.Panel15 = New System.Windows.Forms.Panel()
         Me.Chart2 = New System.Windows.Forms.DataVisualization.Charting.Chart()
+        Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Chart3 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
+        Me.ButtonDemo = New System.Windows.Forms.Button()
+        Me.ButtonPatient = New System.Windows.Forms.Button()
+        Me.ButtonSave = New System.Windows.Forms.Button()
+        Me.ButtonFreeze = New System.Windows.Forms.Button()
+        Me.ButtonMm = New System.Windows.Forms.Button()
+        Me.ButtonStep = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
+        Me.ButtonStart = New System.Windows.Forms.Button()
+        Me.ButtonStandby = New System.Windows.Forms.Button()
+        Me.ButtonStop = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Panel1.SuspendLayout()
+        Me.LabelReceived = New System.Windows.Forms.Label()
+        Me.LabelPort = New System.Windows.Forms.Label()
+        Me.ButtonDisconnect = New System.Windows.Forms.Button()
+        Me.ButtonConnect = New System.Windows.Forms.Button()
+        Me.ComboBoxPort = New System.Windows.Forms.ComboBox()
+        Me.TimerWatch = New System.Windows.Forms.Timer(Me.components)
+        Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
+        Me.TimerReceived = New System.Windows.Forms.Timer(Me.components)
+        Me.PanelLeft.SuspendLayout()
         Me.Panel10.SuspendLayout()
         Me.Panel11.SuspendLayout()
         Me.Panel9.SuspendLayout()
@@ -121,93 +134,95 @@ Partial Class Dashboard
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.PanelTop.SuspendLayout()
-        CType(Me.Chart3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Chart1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel13.SuspendLayout()
         Me.Panel14.SuspendLayout()
-        CType(Me.Chart1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel15.SuspendLayout()
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel15.SuspendLayout()
+        CType(Me.Chart3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel12.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Panel1
+        'PanelLeft
         '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.Control
-        Me.Panel1.Controls.Add(Me.Panel10)
-        Me.Panel1.Controls.Add(Me.Panel11)
-        Me.Panel1.Controls.Add(Me.Panel9)
-        Me.Panel1.Controls.Add(Me.Panel8)
-        Me.Panel1.Controls.Add(Me.Panel17)
-        Me.Panel1.Controls.Add(Me.Panel18)
-        Me.Panel1.Controls.Add(Me.Panel7)
-        Me.Panel1.Controls.Add(Me.Panel6)
-        Me.Panel1.Controls.Add(Me.Panel5)
-        Me.Panel1.Controls.Add(Me.Panel16)
-        Me.Panel1.Controls.Add(Me.Button_Exit)
-        Me.Panel1.Controls.Add(Me.Panel3)
-        Me.Panel1.Controls.Add(Me.Panel2)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(266, 965)
-        Me.Panel1.TabIndex = 0
+        Me.PanelLeft.BackColor = System.Drawing.SystemColors.Control
+        Me.PanelLeft.Controls.Add(Me.Panel10)
+        Me.PanelLeft.Controls.Add(Me.Panel11)
+        Me.PanelLeft.Controls.Add(Me.Panel9)
+        Me.PanelLeft.Controls.Add(Me.Panel8)
+        Me.PanelLeft.Controls.Add(Me.Panel17)
+        Me.PanelLeft.Controls.Add(Me.LabelB)
+        Me.PanelLeft.Controls.Add(Me.LabelA)
+        Me.PanelLeft.Controls.Add(Me.Panel18)
+        Me.PanelLeft.Controls.Add(Me.Panel7)
+        Me.PanelLeft.Controls.Add(Me.Panel6)
+        Me.PanelLeft.Controls.Add(Me.Panel5)
+        Me.PanelLeft.Controls.Add(Me.Panel16)
+        Me.PanelLeft.Controls.Add(Me.Button_Exit)
+        Me.PanelLeft.Controls.Add(Me.Panel3)
+        Me.PanelLeft.Controls.Add(Me.Panel2)
+        Me.PanelLeft.Dock = System.Windows.Forms.DockStyle.Left
+        Me.PanelLeft.Location = New System.Drawing.Point(0, 0)
+        Me.PanelLeft.Name = "PanelLeft"
+        Me.PanelLeft.Size = New System.Drawing.Size(266, 965)
+        Me.PanelLeft.TabIndex = 0
         '
         'Panel10
         '
         Me.Panel10.BackColor = System.Drawing.SystemColors.Control
-        Me.Panel10.Controls.Add(Me.Label13)
+        Me.Panel10.Controls.Add(Me.LabelTimerCompressor)
         Me.Panel10.Controls.Add(Me.Label23)
-        Me.Panel10.Controls.Add(Me.Label26)
-        Me.Panel10.Controls.Add(Me.Label27)
+        Me.Panel10.Controls.Add(Me.LabelTime)
+        Me.Panel10.Controls.Add(Me.LabelDateDay)
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel10.Location = New System.Drawing.Point(0, 784)
+        Me.Panel10.Location = New System.Drawing.Point(0, 755)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(266, 114)
+        Me.Panel10.Size = New System.Drawing.Size(266, 107)
         Me.Panel10.TabIndex = 23
         '
-        'Label13
+        'LabelTimerCompressor
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(94, 97)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(61, 13)
-        Me.Label13.TabIndex = 6
-        Me.Label13.Text = "01 : 00 : 00"
+        Me.LabelTimerCompressor.AutoSize = True
+        Me.LabelTimerCompressor.Location = New System.Drawing.Point(98, 85)
+        Me.LabelTimerCompressor.Name = "LabelTimerCompressor"
+        Me.LabelTimerCompressor.Size = New System.Drawing.Size(61, 13)
+        Me.LabelTimerCompressor.TabIndex = 6
+        Me.LabelTimerCompressor.Text = "01 : 00 : 00"
         '
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(84, 72)
+        Me.Label23.Location = New System.Drawing.Point(88, 60)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(88, 13)
         Me.Label23.TabIndex = 5
         Me.Label23.Text = "Compressor Time"
         '
-        'Label26
+        'LabelTime
         '
-        Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(94, 47)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(68, 13)
-        Me.Label26.TabIndex = 4
-        Me.Label26.Text = "02:49:03 PM"
+        Me.LabelTime.AutoSize = True
+        Me.LabelTime.Location = New System.Drawing.Point(98, 35)
+        Me.LabelTime.Name = "LabelTime"
+        Me.LabelTime.Size = New System.Drawing.Size(68, 13)
+        Me.LabelTime.TabIndex = 4
+        Me.LabelTime.Text = "02:49:03 PM"
         '
-        'Label27
+        'LabelDateDay
         '
-        Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(79, 21)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(103, 13)
-        Me.Label27.TabIndex = 3
-        Me.Label27.Text = "Wed, 03 / 20 /2019"
+        Me.LabelDateDay.AutoSize = True
+        Me.LabelDateDay.Location = New System.Drawing.Point(91, 12)
+        Me.LabelDateDay.Name = "LabelDateDay"
+        Me.LabelDateDay.Size = New System.Drawing.Size(74, 13)
+        Me.LabelDateDay.TabIndex = 3
+        Me.LabelDateDay.Text = "03 / 20 /2019"
         '
         'Panel11
         '
         Me.Panel11.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.Panel11.Controls.Add(Me.Label30)
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel11.Location = New System.Drawing.Point(0, 741)
+        Me.Panel11.Location = New System.Drawing.Point(0, 712)
         Me.Panel11.Name = "Panel11"
         Me.Panel11.Size = New System.Drawing.Size(266, 43)
         Me.Panel11.TabIndex = 22
@@ -227,13 +242,13 @@ Partial Class Dashboard
         '
         Me.Panel9.BackColor = System.Drawing.SystemColors.Control
         Me.Panel9.Controls.Add(Me.Label20)
-        Me.Panel9.Controls.Add(Me.Label22)
+        Me.Panel9.Controls.Add(Me.LabelPressure)
         Me.Panel9.Controls.Add(Me.Label21)
         Me.Panel9.Controls.Add(Me.Label24)
-        Me.Panel9.Controls.Add(Me.Button5)
-        Me.Panel9.Controls.Add(Me.Button7)
+        Me.Panel9.Controls.Add(Me.ButtonMinPressure)
+        Me.Panel9.Controls.Add(Me.ButtonPlusPressure)
         Me.Panel9.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel9.Location = New System.Drawing.Point(0, 649)
+        Me.Panel9.Location = New System.Drawing.Point(0, 620)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(266, 92)
         Me.Panel9.TabIndex = 21
@@ -245,20 +260,20 @@ Partial Class Dashboard
         Me.Label20.ForeColor = System.Drawing.Color.Black
         Me.Label20.Location = New System.Drawing.Point(139, 57)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(32, 13)
+        Me.Label20.Size = New System.Drawing.Size(41, 13)
         Me.Label20.TabIndex = 18
-        Me.Label20.Text = "MPa"
+        Me.Label20.Text = "mmHg"
         '
-        'Label22
+        'LabelPressure
         '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.ForeColor = System.Drawing.Color.Black
-        Me.Label22.Location = New System.Drawing.Point(90, 57)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(39, 13)
-        Me.Label22.TabIndex = 17
-        Me.Label22.Text = "0.035"
+        Me.LabelPressure.AutoSize = True
+        Me.LabelPressure.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelPressure.ForeColor = System.Drawing.Color.Black
+        Me.LabelPressure.Location = New System.Drawing.Point(107, 57)
+        Me.LabelPressure.Name = "LabelPressure"
+        Me.LabelPressure.Size = New System.Drawing.Size(21, 13)
+        Me.LabelPressure.TabIndex = 17
+        Me.LabelPressure.Text = "80"
         '
         'Label21
         '
@@ -267,9 +282,9 @@ Partial Class Dashboard
         Me.Label21.ForeColor = System.Drawing.Color.Black
         Me.Label21.Location = New System.Drawing.Point(139, 32)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(32, 13)
+        Me.Label21.Size = New System.Drawing.Size(41, 13)
         Me.Label21.TabIndex = 16
-        Me.Label21.Text = "MPa"
+        Me.Label21.Text = "mmHg"
         '
         'Label24
         '
@@ -280,36 +295,36 @@ Partial Class Dashboard
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(39, 13)
         Me.Label24.TabIndex = 13
-        Me.Label24.Text = "0.035"
+        Me.Label24.Text = "0.000"
         '
-        'Button5
+        'ButtonMinPressure
         '
-        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button5.Location = New System.Drawing.Point(30, 27)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(43, 43)
-        Me.Button5.TabIndex = 11
-        Me.Button5.Text = "<"
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.ButtonMinPressure.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonMinPressure.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonMinPressure.Location = New System.Drawing.Point(30, 27)
+        Me.ButtonMinPressure.Name = "ButtonMinPressure"
+        Me.ButtonMinPressure.Size = New System.Drawing.Size(43, 43)
+        Me.ButtonMinPressure.TabIndex = 11
+        Me.ButtonMinPressure.Text = "<"
+        Me.ButtonMinPressure.UseVisualStyleBackColor = False
         '
-        'Button7
+        'ButtonPlusPressure
         '
-        Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button7.Location = New System.Drawing.Point(186, 27)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(43, 43)
-        Me.Button7.TabIndex = 9
-        Me.Button7.Text = ">"
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.ButtonPlusPressure.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonPlusPressure.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonPlusPressure.Location = New System.Drawing.Point(186, 27)
+        Me.ButtonPlusPressure.Name = "ButtonPlusPressure"
+        Me.ButtonPlusPressure.Size = New System.Drawing.Size(43, 43)
+        Me.ButtonPlusPressure.TabIndex = 9
+        Me.ButtonPlusPressure.Text = ">"
+        Me.ButtonPlusPressure.UseVisualStyleBackColor = False
         '
         'Panel8
         '
         Me.Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.Panel8.Controls.Add(Me.Label19)
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel8.Location = New System.Drawing.Point(0, 606)
+        Me.Panel8.Location = New System.Drawing.Point(0, 577)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(266, 43)
         Me.Panel8.TabIndex = 20
@@ -332,14 +347,14 @@ Partial Class Dashboard
         Me.Panel17.Controls.Add(Me.Label31)
         Me.Panel17.Controls.Add(Me.Label32)
         Me.Panel17.Controls.Add(Me.Label33)
-        Me.Panel17.Controls.Add(Me.Label34)
-        Me.Panel17.Controls.Add(Me.Button9)
-        Me.Panel17.Controls.Add(Me.Button10)
+        Me.Panel17.Controls.Add(Me.LabelAmpSpo)
+        Me.Panel17.Controls.Add(Me.ButtonMin)
+        Me.Panel17.Controls.Add(Me.ButtonPlus)
         Me.Panel17.Controls.Add(Me.Label35)
         Me.Panel17.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel17.Location = New System.Drawing.Point(0, 465)
+        Me.Panel17.Location = New System.Drawing.Point(0, 442)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(266, 141)
+        Me.Panel17.Size = New System.Drawing.Size(266, 135)
         Me.Panel17.TabIndex = 19
         '
         'Label29
@@ -347,7 +362,7 @@ Partial Class Dashboard
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.Black
-        Me.Label29.Location = New System.Drawing.Point(150, 116)
+        Me.Label29.Location = New System.Drawing.Point(164, 107)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(32, 13)
         Me.Label29.TabIndex = 17
@@ -358,7 +373,7 @@ Partial Class Dashboard
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.ForeColor = System.Drawing.Color.Black
-        Me.Label31.Location = New System.Drawing.Point(155, 91)
+        Me.Label31.Location = New System.Drawing.Point(164, 82)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(32, 13)
         Me.Label31.TabIndex = 16
@@ -369,7 +384,7 @@ Partial Class Dashboard
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.ForeColor = System.Drawing.Color.Black
-        Me.Label32.Location = New System.Drawing.Point(32, 116)
+        Me.Label32.Location = New System.Drawing.Point(41, 107)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(86, 13)
         Me.Label32.TabIndex = 15
@@ -380,44 +395,44 @@ Partial Class Dashboard
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.ForeColor = System.Drawing.Color.Black
-        Me.Label33.Location = New System.Drawing.Point(32, 91)
+        Me.Label33.Location = New System.Drawing.Point(41, 82)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(81, 13)
         Me.Label33.TabIndex = 14
         Me.Label33.Text = "PEAK RATIO"
         '
-        'Label34
+        'LabelAmpSpo
         '
-        Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.ForeColor = System.Drawing.Color.Black
-        Me.Label34.Location = New System.Drawing.Point(107, 45)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(52, 13)
-        Me.Label34.TabIndex = 13
-        Me.Label34.Text = "AMP X8"
+        Me.LabelAmpSpo.AutoSize = True
+        Me.LabelAmpSpo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelAmpSpo.ForeColor = System.Drawing.Color.Black
+        Me.LabelAmpSpo.Location = New System.Drawing.Point(107, 45)
+        Me.LabelAmpSpo.Name = "LabelAmpSpo"
+        Me.LabelAmpSpo.Size = New System.Drawing.Size(52, 13)
+        Me.LabelAmpSpo.TabIndex = 13
+        Me.LabelAmpSpo.Text = "AMP X1"
         '
-        'Button9
+        'ButtonMin
         '
-        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button9.Location = New System.Drawing.Point(30, 33)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(43, 36)
-        Me.Button9.TabIndex = 11
-        Me.Button9.Text = "<"
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.ButtonMin.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonMin.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonMin.Location = New System.Drawing.Point(30, 33)
+        Me.ButtonMin.Name = "ButtonMin"
+        Me.ButtonMin.Size = New System.Drawing.Size(43, 36)
+        Me.ButtonMin.TabIndex = 11
+        Me.ButtonMin.Text = "<"
+        Me.ButtonMin.UseVisualStyleBackColor = False
         '
-        'Button10
+        'ButtonPlus
         '
-        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button10.Location = New System.Drawing.Point(186, 33)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(43, 36)
-        Me.Button10.TabIndex = 9
-        Me.Button10.Text = ">"
-        Me.Button10.UseVisualStyleBackColor = False
+        Me.ButtonPlus.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonPlus.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonPlus.Location = New System.Drawing.Point(186, 33)
+        Me.ButtonPlus.Name = "ButtonPlus"
+        Me.ButtonPlus.Size = New System.Drawing.Size(43, 36)
+        Me.ButtonPlus.TabIndex = 9
+        Me.ButtonPlus.Text = ">"
+        Me.ButtonPlus.UseVisualStyleBackColor = False
         '
         'Label35
         '
@@ -430,12 +445,32 @@ Partial Class Dashboard
         Me.Label35.TabIndex = 7
         Me.Label35.Text = "85 %"
         '
+        'LabelB
+        '
+        Me.LabelB.AutoSize = True
+        Me.LabelB.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.LabelB.Location = New System.Drawing.Point(164, 887)
+        Me.LabelB.Name = "LabelB"
+        Me.LabelB.Size = New System.Drawing.Size(14, 13)
+        Me.LabelB.TabIndex = 70
+        Me.LabelB.Text = "B"
+        '
+        'LabelA
+        '
+        Me.LabelA.AutoSize = True
+        Me.LabelA.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.LabelA.Location = New System.Drawing.Point(74, 887)
+        Me.LabelA.Name = "LabelA"
+        Me.LabelA.Size = New System.Drawing.Size(14, 13)
+        Me.LabelA.TabIndex = 69
+        Me.LabelA.Text = "A"
+        '
         'Panel18
         '
         Me.Panel18.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.Panel18.Controls.Add(Me.Label36)
         Me.Panel18.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel18.Location = New System.Drawing.Point(0, 422)
+        Me.Panel18.Location = New System.Drawing.Point(0, 399)
         Me.Panel18.Name = "Panel18"
         Me.Panel18.Size = New System.Drawing.Size(266, 43)
         Me.Panel18.TabIndex = 18
@@ -454,48 +489,48 @@ Partial Class Dashboard
         'Panel7
         '
         Me.Panel7.BackColor = System.Drawing.SystemColors.Control
-        Me.Panel7.Controls.Add(Me.Label14)
-        Me.Panel7.Controls.Add(Me.Button6)
-        Me.Panel7.Controls.Add(Me.Button8)
+        Me.Panel7.Controls.Add(Me.LabelAmpEcg)
+        Me.Panel7.Controls.Add(Me.ButtonMinEcg)
+        Me.Panel7.Controls.Add(Me.ButtonPlusEcg)
         Me.Panel7.Controls.Add(Me.Label16)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel7.Location = New System.Drawing.Point(0, 321)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(266, 101)
+        Me.Panel7.Size = New System.Drawing.Size(266, 78)
         Me.Panel7.TabIndex = 13
         '
-        'Label14
+        'LabelAmpEcg
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(107, 46)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(52, 13)
-        Me.Label14.TabIndex = 13
-        Me.Label14.Text = "AMP X6"
+        Me.LabelAmpEcg.AutoSize = True
+        Me.LabelAmpEcg.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelAmpEcg.ForeColor = System.Drawing.Color.Black
+        Me.LabelAmpEcg.Location = New System.Drawing.Point(107, 46)
+        Me.LabelAmpEcg.Name = "LabelAmpEcg"
+        Me.LabelAmpEcg.Size = New System.Drawing.Size(52, 13)
+        Me.LabelAmpEcg.TabIndex = 13
+        Me.LabelAmpEcg.Text = "AMP X1"
         '
-        'Button6
+        'ButtonMinEcg
         '
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button6.Location = New System.Drawing.Point(30, 35)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(43, 34)
-        Me.Button6.TabIndex = 11
-        Me.Button6.Text = "<"
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.ButtonMinEcg.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonMinEcg.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonMinEcg.Location = New System.Drawing.Point(30, 35)
+        Me.ButtonMinEcg.Name = "ButtonMinEcg"
+        Me.ButtonMinEcg.Size = New System.Drawing.Size(43, 34)
+        Me.ButtonMinEcg.TabIndex = 11
+        Me.ButtonMinEcg.Text = "<"
+        Me.ButtonMinEcg.UseVisualStyleBackColor = False
         '
-        'Button8
+        'ButtonPlusEcg
         '
-        Me.Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button8.Location = New System.Drawing.Point(186, 35)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(43, 34)
-        Me.Button8.TabIndex = 9
-        Me.Button8.Text = ">"
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.ButtonPlusEcg.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonPlusEcg.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonPlusEcg.Location = New System.Drawing.Point(186, 35)
+        Me.ButtonPlusEcg.Name = "ButtonPlusEcg"
+        Me.ButtonPlusEcg.Size = New System.Drawing.Size(43, 34)
+        Me.ButtonPlusEcg.TabIndex = 9
+        Me.ButtonPlusEcg.Text = ">"
+        Me.ButtonPlusEcg.UseVisualStyleBackColor = False
         '
         'Label16
         '
@@ -504,9 +539,9 @@ Partial Class Dashboard
         Me.Label16.ForeColor = System.Drawing.Color.Black
         Me.Label16.Location = New System.Drawing.Point(107, 14)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(21, 13)
+        Me.Label16.Size = New System.Drawing.Size(25, 13)
         Me.Label16.TabIndex = 7
-        Me.Label16.Text = "65"
+        Me.Label16.Text = "HR"
         '
         'Panel6
         '
@@ -532,126 +567,153 @@ Partial Class Dashboard
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.SystemColors.Control
-        Me.Panel5.Controls.Add(Me.Label11)
-        Me.Panel5.Controls.Add(Me.Label10)
-        Me.Panel5.Controls.Add(Me.Button1)
-        Me.Panel5.Controls.Add(Me.Button2)
-        Me.Panel5.Controls.Add(Me.Button3)
-        Me.Panel5.Controls.Add(Me.Button4)
+        Me.Panel5.Controls.Add(Me.Panel_I3)
+        Me.Panel5.Controls.Add(Me.Panel_I2)
+        Me.Panel5.Controls.Add(Me.Panel_I1)
+        Me.Panel5.Controls.Add(Me.LabelIDControl2)
+        Me.Panel5.Controls.Add(Me.LabelIDControl1)
+        Me.Panel5.Controls.Add(Me.ButtonIDMin2)
+        Me.Panel5.Controls.Add(Me.ButtonIDMin1)
+        Me.Panel5.Controls.Add(Me.ButtonIDPlus2)
+        Me.Panel5.Controls.Add(Me.ButtonIDPlus1)
         Me.Panel5.Controls.Add(Me.Label9)
         Me.Panel5.Controls.Add(Me.Label8)
         Me.Panel5.Controls.Add(Me.Label7)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel5.Location = New System.Drawing.Point(0, 137)
+        Me.Panel5.Location = New System.Drawing.Point(0, 131)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(266, 141)
+        Me.Panel5.Size = New System.Drawing.Size(266, 147)
         Me.Panel5.TabIndex = 11
         '
-        'Label11
+        'Panel_I3
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(107, 91)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(54, 13)
-        Me.Label11.TabIndex = 14
-        Me.Label11.Text = "R-D 536"
+        Me.Panel_I3.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.Panel_I3.Location = New System.Drawing.Point(164, 31)
+        Me.Panel_I3.Name = "Panel_I3"
+        Me.Panel_I3.Size = New System.Drawing.Size(18, 17)
+        Me.Panel_I3.TabIndex = 16
         '
-        'Label10
+        'Panel_I2
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(107, 51)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(52, 13)
-        Me.Label10.TabIndex = 13
-        Me.Label10.Text = "R-1 184"
+        Me.Panel_I2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.Panel_I2.Location = New System.Drawing.Point(121, 31)
+        Me.Panel_I2.Name = "Panel_I2"
+        Me.Panel_I2.Size = New System.Drawing.Size(18, 17)
+        Me.Panel_I2.TabIndex = 16
         '
-        'Button1
+        'Panel_I1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button1.Location = New System.Drawing.Point(30, 86)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(43, 28)
-        Me.Button1.TabIndex = 12
-        Me.Button1.Text = "<"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.Panel_I1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.Panel_I1.Location = New System.Drawing.Point(79, 31)
+        Me.Panel_I1.Name = "Panel_I1"
+        Me.Panel_I1.Size = New System.Drawing.Size(18, 17)
+        Me.Panel_I1.TabIndex = 15
         '
-        'Button2
+        'LabelIDControl2
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button2.Location = New System.Drawing.Point(30, 46)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(43, 28)
-        Me.Button2.TabIndex = 11
-        Me.Button2.Text = "<"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.LabelIDControl2.AutoSize = True
+        Me.LabelIDControl2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelIDControl2.ForeColor = System.Drawing.Color.Black
+        Me.LabelIDControl2.Location = New System.Drawing.Point(107, 111)
+        Me.LabelIDControl2.Name = "LabelIDControl2"
+        Me.LabelIDControl2.Size = New System.Drawing.Size(62, 13)
+        Me.LabelIDControl2.TabIndex = 14
+        Me.LabelIDControl2.Text = "R - D 536"
         '
-        'Button3
+        'LabelIDControl1
         '
-        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button3.Location = New System.Drawing.Point(186, 86)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(43, 28)
-        Me.Button3.TabIndex = 10
-        Me.Button3.Text = ">"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.LabelIDControl1.AutoSize = True
+        Me.LabelIDControl1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelIDControl1.ForeColor = System.Drawing.Color.Black
+        Me.LabelIDControl1.Location = New System.Drawing.Point(107, 71)
+        Me.LabelIDControl1.Name = "LabelIDControl1"
+        Me.LabelIDControl1.Size = New System.Drawing.Size(57, 13)
+        Me.LabelIDControl1.TabIndex = 13
+        Me.LabelIDControl1.Text = "R - I 184"
         '
-        'Button4
+        'ButtonIDMin2
         '
-        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button4.Location = New System.Drawing.Point(186, 46)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(43, 28)
-        Me.Button4.TabIndex = 9
-        Me.Button4.Text = ">"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.ButtonIDMin2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonIDMin2.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonIDMin2.Location = New System.Drawing.Point(30, 106)
+        Me.ButtonIDMin2.Name = "ButtonIDMin2"
+        Me.ButtonIDMin2.Size = New System.Drawing.Size(43, 28)
+        Me.ButtonIDMin2.TabIndex = 12
+        Me.ButtonIDMin2.Text = "<"
+        Me.ButtonIDMin2.UseVisualStyleBackColor = False
+        '
+        'ButtonIDMin1
+        '
+        Me.ButtonIDMin1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonIDMin1.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonIDMin1.Location = New System.Drawing.Point(30, 66)
+        Me.ButtonIDMin1.Name = "ButtonIDMin1"
+        Me.ButtonIDMin1.Size = New System.Drawing.Size(43, 28)
+        Me.ButtonIDMin1.TabIndex = 11
+        Me.ButtonIDMin1.Text = "<"
+        Me.ButtonIDMin1.UseVisualStyleBackColor = False
+        '
+        'ButtonIDPlus2
+        '
+        Me.ButtonIDPlus2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonIDPlus2.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonIDPlus2.Location = New System.Drawing.Point(186, 106)
+        Me.ButtonIDPlus2.Name = "ButtonIDPlus2"
+        Me.ButtonIDPlus2.Size = New System.Drawing.Size(43, 28)
+        Me.ButtonIDPlus2.TabIndex = 10
+        Me.ButtonIDPlus2.Text = ">"
+        Me.ButtonIDPlus2.UseVisualStyleBackColor = False
+        '
+        'ButtonIDPlus1
+        '
+        Me.ButtonIDPlus1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
+        Me.ButtonIDPlus1.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonIDPlus1.Location = New System.Drawing.Point(186, 66)
+        Me.ButtonIDPlus1.Name = "ButtonIDPlus1"
+        Me.ButtonIDPlus1.Size = New System.Drawing.Size(43, 28)
+        Me.ButtonIDPlus1.TabIndex = 9
+        Me.ButtonIDPlus1.Text = ">"
+        Me.ButtonIDPlus1.UseVisualStyleBackColor = False
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(150, 14)
+        Me.Label9.Location = New System.Drawing.Point(164, 15)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(21, 13)
+        Me.Label9.Size = New System.Drawing.Size(18, 13)
         Me.Label9.TabIndex = 8
-        Me.Label9.Text = "13"
+        Me.Label9.Text = "I3"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(107, 14)
+        Me.Label8.Location = New System.Drawing.Point(123, 15)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(21, 13)
+        Me.Label8.Size = New System.Drawing.Size(18, 13)
         Me.Label8.TabIndex = 7
-        Me.Label8.Text = "12"
+        Me.Label8.Text = "I2"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(65, 14)
+        Me.Label7.Location = New System.Drawing.Point(80, 15)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(21, 13)
+        Me.Label7.Size = New System.Drawing.Size(18, 13)
         Me.Label7.TabIndex = 6
-        Me.Label7.Text = "11"
+        Me.Label7.Text = "I1"
         '
         'Panel16
         '
         Me.Panel16.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.Panel16.Controls.Add(Me.Label28)
         Me.Panel16.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel16.Location = New System.Drawing.Point(0, 94)
+        Me.Panel16.Location = New System.Drawing.Point(0, 88)
         Me.Panel16.Name = "Panel16"
         Me.Panel16.Size = New System.Drawing.Size(266, 43)
         Me.Panel16.TabIndex = 10
@@ -665,7 +727,7 @@ Partial Class Dashboard
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(97, 13)
         Me.Label28.TabIndex = 5
-        Me.Label28.Text = "I / O CONTROL"
+        Me.Label28.Text = "I / D CONTROL"
         '
         'Button_Exit
         '
@@ -688,7 +750,7 @@ Partial Class Dashboard
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(0, 51)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(266, 43)
+        Me.Panel3.Size = New System.Drawing.Size(266, 37)
         Me.Panel3.TabIndex = 1
         '
         'Label6
@@ -696,7 +758,7 @@ Partial Class Dashboard
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(107, 19)
+        Me.Label6.Location = New System.Drawing.Point(107, 13)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(43, 13)
         Me.Label6.TabIndex = 5
@@ -740,7 +802,7 @@ Partial Class Dashboard
         Me.PanelTop.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.PanelTop.Controls.Add(Me.Label3)
         Me.PanelTop.Controls.Add(Me.Label2)
-        Me.PanelTop.Controls.Add(Me.Label1)
+        Me.PanelTop.Controls.Add(Me.LabelType)
         Me.PanelTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelTop.Location = New System.Drawing.Point(266, 0)
         Me.PanelTop.Name = "PanelTop"
@@ -752,7 +814,7 @@ Partial Class Dashboard
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label3.Location = New System.Drawing.Point(127, 19)
+        Me.Label3.Location = New System.Drawing.Point(129, 11)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(307, 24)
         Me.Label3.TabIndex = 2
@@ -763,64 +825,64 @@ Partial Class Dashboard
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label2.Location = New System.Drawing.Point(15, 19)
+        Me.Label2.Location = New System.Drawing.Point(15, 11)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(77, 24)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "ID : 001 "
         '
-        'Label1
+        'LabelType
         '
-        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label1.Location = New System.Drawing.Point(559, 19)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(225, 24)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "TYPE PATIENT :  ADULT"
+        Me.LabelType.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.LabelType.AutoSize = True
+        Me.LabelType.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelType.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.LabelType.Location = New System.Drawing.Point(592, 11)
+        Me.LabelType.Name = "LabelType"
+        Me.LabelType.Size = New System.Drawing.Size(140, 24)
+        Me.LabelType.TabIndex = 0
+        Me.LabelType.Text = "TYPE :  ADULT"
         '
-        'Chart3
+        'Chart1
         '
-        Me.Chart3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.Chart1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Chart3.BackColor = System.Drawing.Color.Transparent
-        ChartArea25.AxisX.LabelStyle.Enabled = False
-        ChartArea25.AxisX.LineColor = System.Drawing.Color.Transparent
-        ChartArea25.AxisX.MajorGrid.Enabled = False
-        ChartArea25.AxisX.MajorTickMark.Enabled = False
-        ChartArea25.AxisY.LabelStyle.Enabled = False
-        ChartArea25.AxisY.LineColor = System.Drawing.Color.Transparent
-        ChartArea25.AxisY.LineWidth = 50
-        ChartArea25.AxisY.MajorGrid.Enabled = False
-        ChartArea25.AxisY.MajorTickMark.Enabled = False
-        ChartArea25.BackColor = System.Drawing.Color.Transparent
-        ChartArea25.BorderColor = System.Drawing.Color.Transparent
-        ChartArea25.Name = "ChartArea1"
-        Me.Chart3.ChartAreas.Add(ChartArea25)
-        Me.Chart3.IsSoftShadows = False
-        Me.Chart3.Location = New System.Drawing.Point(40, 19)
-        Me.Chart3.Name = "Chart3"
-        Series49.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center
-        Series49.ChartArea = "ChartArea1"
-        Series49.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series49.Color = System.Drawing.Color.Lime
-        Series49.Name = "ecg1a"
-        Series49.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series50.ChartArea = "ChartArea1"
-        Series50.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series50.Color = System.Drawing.Color.Lime
-        Series50.Name = "ecg1b"
-        Me.Chart3.Series.Add(Series49)
-        Me.Chart3.Series.Add(Series50)
-        Me.Chart3.Size = New System.Drawing.Size(692, 195)
-        Me.Chart3.TabIndex = 68
-        Me.Chart3.Text = "Chart3"
+        Me.Chart1.BackColor = System.Drawing.Color.Transparent
+        ChartArea4.AxisX.LabelStyle.Enabled = False
+        ChartArea4.AxisX.LineColor = System.Drawing.Color.Transparent
+        ChartArea4.AxisX.MajorGrid.Enabled = False
+        ChartArea4.AxisX.MajorTickMark.Enabled = False
+        ChartArea4.AxisY.LabelStyle.Enabled = False
+        ChartArea4.AxisY.LineColor = System.Drawing.Color.Transparent
+        ChartArea4.AxisY.LineWidth = 50
+        ChartArea4.AxisY.MajorGrid.Enabled = False
+        ChartArea4.AxisY.MajorTickMark.Enabled = False
+        ChartArea4.BackColor = System.Drawing.Color.Transparent
+        ChartArea4.BorderColor = System.Drawing.Color.Transparent
+        ChartArea4.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea4)
+        Me.Chart1.IsSoftShadows = False
+        Me.Chart1.Location = New System.Drawing.Point(40, 19)
+        Me.Chart1.Name = "Chart1"
+        Series7.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center
+        Series7.ChartArea = "ChartArea1"
+        Series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series7.Color = System.Drawing.Color.Lime
+        Series7.Name = "ecg1a"
+        Series7.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series8.ChartArea = "ChartArea1"
+        Series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series8.Color = System.Drawing.Color.Lime
+        Series8.Name = "ecg1b"
+        Me.Chart1.Series.Add(Series7)
+        Me.Chart1.Series.Add(Series8)
+        Me.Chart1.Size = New System.Drawing.Size(692, 195)
+        Me.Chart1.TabIndex = 68
+        Me.Chart1.Text = "Chart3"
         '
         'Panel13
         '
-        Me.Panel13.Controls.Add(Me.Chart3)
+        Me.Panel13.Controls.Add(Me.Chart1)
         Me.Panel13.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel13.Location = New System.Drawing.Point(266, 51)
         Me.Panel13.Name = "Panel13"
@@ -829,169 +891,180 @@ Partial Class Dashboard
         '
         'Panel14
         '
-        Me.Panel14.Controls.Add(Me.Chart1)
+        Me.Panel14.Controls.Add(Me.Chart2)
         Me.Panel14.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel14.Location = New System.Drawing.Point(266, 278)
         Me.Panel14.Name = "Panel14"
         Me.Panel14.Size = New System.Drawing.Size(796, 227)
         Me.Panel14.TabIndex = 74
         '
-        'Chart1
+        'Chart2
         '
-        Me.Chart1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.Chart2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Chart1.BackColor = System.Drawing.Color.Transparent
-        ChartArea26.AxisX.LabelStyle.Enabled = False
-        ChartArea26.AxisX.LineColor = System.Drawing.Color.Transparent
-        ChartArea26.AxisX.MajorGrid.Enabled = False
-        ChartArea26.AxisX.MajorTickMark.Enabled = False
-        ChartArea26.AxisY.LabelStyle.Enabled = False
-        ChartArea26.AxisY.LineColor = System.Drawing.Color.Transparent
-        ChartArea26.AxisY.LineWidth = 50
-        ChartArea26.AxisY.MajorGrid.Enabled = False
-        ChartArea26.AxisY.MajorTickMark.Enabled = False
-        ChartArea26.BackColor = System.Drawing.Color.Transparent
-        ChartArea26.BorderColor = System.Drawing.Color.Transparent
-        ChartArea26.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea26)
-        Me.Chart1.IsSoftShadows = False
-        Me.Chart1.Location = New System.Drawing.Point(40, 19)
-        Me.Chart1.Name = "Chart1"
-        Series51.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center
-        Series51.ChartArea = "ChartArea1"
-        Series51.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series51.Color = System.Drawing.Color.Lime
-        Series51.Name = "ecg1a"
-        Series51.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series52.ChartArea = "ChartArea1"
-        Series52.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series52.Color = System.Drawing.Color.Lime
-        Series52.Name = "ecg1b"
-        Me.Chart1.Series.Add(Series51)
-        Me.Chart1.Series.Add(Series52)
-        Me.Chart1.Size = New System.Drawing.Size(692, 195)
-        Me.Chart1.TabIndex = 68
-        Me.Chart1.Text = "Chart1"
+        Me.Chart2.BackColor = System.Drawing.Color.Transparent
+        ChartArea5.AxisX.LabelStyle.Enabled = False
+        ChartArea5.AxisX.LineColor = System.Drawing.Color.Transparent
+        ChartArea5.AxisX.MajorGrid.Enabled = False
+        ChartArea5.AxisX.MajorTickMark.Enabled = False
+        ChartArea5.AxisY.LabelStyle.Enabled = False
+        ChartArea5.AxisY.LineColor = System.Drawing.Color.Transparent
+        ChartArea5.AxisY.LineWidth = 50
+        ChartArea5.AxisY.MajorGrid.Enabled = False
+        ChartArea5.AxisY.MajorTickMark.Enabled = False
+        ChartArea5.BackColor = System.Drawing.Color.Transparent
+        ChartArea5.BorderColor = System.Drawing.Color.Transparent
+        ChartArea5.Name = "ChartArea1"
+        Me.Chart2.ChartAreas.Add(ChartArea5)
+        Me.Chart2.IsSoftShadows = False
+        Me.Chart2.Location = New System.Drawing.Point(40, 19)
+        Me.Chart2.Name = "Chart2"
+        Series9.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center
+        Series9.ChartArea = "ChartArea1"
+        Series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series9.Color = System.Drawing.Color.Lime
+        Series9.Name = "ecg1a"
+        Series9.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series10.ChartArea = "ChartArea1"
+        Series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series10.Color = System.Drawing.Color.Lime
+        Series10.Name = "ecg1b"
+        Me.Chart2.Series.Add(Series9)
+        Me.Chart2.Series.Add(Series10)
+        Me.Chart2.Size = New System.Drawing.Size(692, 195)
+        Me.Chart2.TabIndex = 68
+        Me.Chart2.Text = "Chart1"
         '
         'Panel15
         '
-        Me.Panel15.Controls.Add(Me.Chart2)
+        Me.Panel15.Controls.Add(Me.Chart3)
         Me.Panel15.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel15.Location = New System.Drawing.Point(266, 505)
         Me.Panel15.Name = "Panel15"
         Me.Panel15.Size = New System.Drawing.Size(796, 227)
         Me.Panel15.TabIndex = 75
         '
-        'Chart2
+        'Chart3
         '
-        Me.Chart2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.Chart3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Chart2.BackColor = System.Drawing.Color.Transparent
-        ChartArea27.AxisX.LabelStyle.Enabled = False
-        ChartArea27.AxisX.LineColor = System.Drawing.Color.Transparent
-        ChartArea27.AxisX.MajorGrid.Enabled = False
-        ChartArea27.AxisX.MajorTickMark.Enabled = False
-        ChartArea27.AxisY.LabelStyle.Enabled = False
-        ChartArea27.AxisY.LineColor = System.Drawing.Color.Transparent
-        ChartArea27.AxisY.LineWidth = 50
-        ChartArea27.AxisY.MajorGrid.Enabled = False
-        ChartArea27.AxisY.MajorTickMark.Enabled = False
-        ChartArea27.BackColor = System.Drawing.Color.Transparent
-        ChartArea27.BorderColor = System.Drawing.Color.Transparent
-        ChartArea27.Name = "ChartArea1"
-        Me.Chart2.ChartAreas.Add(ChartArea27)
-        Me.Chart2.IsSoftShadows = False
-        Me.Chart2.Location = New System.Drawing.Point(40, 19)
-        Me.Chart2.Name = "Chart2"
-        Series53.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center
-        Series53.ChartArea = "ChartArea1"
-        Series53.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series53.Color = System.Drawing.Color.Lime
-        Series53.Name = "ecg1a"
-        Series53.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
-        Series54.ChartArea = "ChartArea1"
-        Series54.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series54.Color = System.Drawing.Color.Lime
-        Series54.Name = "ecg1b"
-        Me.Chart2.Series.Add(Series53)
-        Me.Chart2.Series.Add(Series54)
-        Me.Chart2.Size = New System.Drawing.Size(692, 195)
-        Me.Chart2.TabIndex = 68
-        Me.Chart2.Text = "Chart2"
+        Me.Chart3.BackColor = System.Drawing.Color.Transparent
+        ChartArea6.AxisX.LabelStyle.Enabled = False
+        ChartArea6.AxisX.LineColor = System.Drawing.Color.Transparent
+        ChartArea6.AxisX.MajorGrid.Enabled = False
+        ChartArea6.AxisX.MajorTickMark.Enabled = False
+        ChartArea6.AxisY.LabelStyle.Enabled = False
+        ChartArea6.AxisY.LineColor = System.Drawing.Color.Transparent
+        ChartArea6.AxisY.LineWidth = 50
+        ChartArea6.AxisY.MajorGrid.Enabled = False
+        ChartArea6.AxisY.MajorTickMark.Enabled = False
+        ChartArea6.BackColor = System.Drawing.Color.Transparent
+        ChartArea6.BorderColor = System.Drawing.Color.Transparent
+        ChartArea6.Name = "ChartArea1"
+        Me.Chart3.ChartAreas.Add(ChartArea6)
+        Me.Chart3.IsSoftShadows = False
+        Me.Chart3.Location = New System.Drawing.Point(40, 19)
+        Me.Chart3.Name = "Chart3"
+        Series11.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center
+        Series11.ChartArea = "ChartArea1"
+        Series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series11.Color = System.Drawing.Color.Lime
+        Series11.Name = "spo2a"
+        Series11.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.[Double]
+        Series12.ChartArea = "ChartArea1"
+        Series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series12.Color = System.Drawing.Color.Lime
+        Series12.Name = "spo2b"
+        Me.Chart3.Series.Add(Series11)
+        Me.Chart3.Series.Add(Series12)
+        Me.Chart3.Size = New System.Drawing.Size(692, 195)
+        Me.Chart3.TabIndex = 68
+        Me.Chart3.Text = "Chart2"
         '
         'Panel12
         '
         Me.Panel12.BackColor = System.Drawing.SystemColors.Control
-        Me.Panel12.Controls.Add(Me.Button16)
-        Me.Panel12.Controls.Add(Me.Button17)
-        Me.Panel12.Controls.Add(Me.Button18)
-        Me.Panel12.Controls.Add(Me.Button19)
-        Me.Panel12.Controls.Add(Me.Button20)
-        Me.Panel12.Controls.Add(Me.Button15)
+        Me.Panel12.Controls.Add(Me.ButtonDemo)
+        Me.Panel12.Controls.Add(Me.ButtonPatient)
+        Me.Panel12.Controls.Add(Me.ButtonSave)
+        Me.Panel12.Controls.Add(Me.ButtonFreeze)
+        Me.Panel12.Controls.Add(Me.ButtonMm)
+        Me.Panel12.Controls.Add(Me.ButtonStep)
         Me.Panel12.Controls.Add(Me.Button14)
-        Me.Panel12.Controls.Add(Me.Button13)
-        Me.Panel12.Controls.Add(Me.Button12)
-        Me.Panel12.Controls.Add(Me.Button11)
+        Me.Panel12.Controls.Add(Me.ButtonStart)
+        Me.Panel12.Controls.Add(Me.ButtonStandby)
+        Me.Panel12.Controls.Add(Me.ButtonStop)
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel12.Location = New System.Drawing.Point(266, 821)
+        Me.Panel12.Location = New System.Drawing.Point(266, 808)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(796, 144)
+        Me.Panel12.Size = New System.Drawing.Size(796, 157)
         Me.Panel12.TabIndex = 77
         '
-        'Button17
+        'ButtonDemo
         '
-        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.Location = New System.Drawing.Point(478, 79)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(147, 59)
-        Me.Button17.TabIndex = 8
-        Me.Button17.Text = "PATIENT"
-        Me.Button17.UseVisualStyleBackColor = True
+        Me.ButtonDemo.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonDemo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonDemo.Location = New System.Drawing.Point(631, 79)
+        Me.ButtonDemo.Name = "ButtonDemo"
+        Me.ButtonDemo.Size = New System.Drawing.Size(147, 59)
+        Me.ButtonDemo.TabIndex = 9
+        Me.ButtonDemo.Text = "DEMO"
+        Me.ButtonDemo.UseVisualStyleBackColor = True
         '
-        'Button18
+        'ButtonPatient
         '
-        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.Location = New System.Drawing.Point(325, 79)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(147, 59)
-        Me.Button18.TabIndex = 7
-        Me.Button18.Text = "SAVE"
-        Me.Button18.UseVisualStyleBackColor = True
+        Me.ButtonPatient.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonPatient.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonPatient.Location = New System.Drawing.Point(478, 79)
+        Me.ButtonPatient.Name = "ButtonPatient"
+        Me.ButtonPatient.Size = New System.Drawing.Size(147, 59)
+        Me.ButtonPatient.TabIndex = 8
+        Me.ButtonPatient.Text = "PATIENT"
+        Me.ButtonPatient.UseVisualStyleBackColor = True
         '
-        'Button19
+        'ButtonSave
         '
-        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button19.Location = New System.Drawing.Point(172, 79)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(147, 59)
-        Me.Button19.TabIndex = 6
-        Me.Button19.Text = "FREEZE"
-        Me.Button19.UseVisualStyleBackColor = True
+        Me.ButtonSave.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonSave.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonSave.Location = New System.Drawing.Point(325, 79)
+        Me.ButtonSave.Name = "ButtonSave"
+        Me.ButtonSave.Size = New System.Drawing.Size(147, 59)
+        Me.ButtonSave.TabIndex = 7
+        Me.ButtonSave.Text = "SAVE"
+        Me.ButtonSave.UseVisualStyleBackColor = True
         '
-        'Button20
+        'ButtonFreeze
         '
-        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button20.Location = New System.Drawing.Point(19, 79)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(147, 59)
-        Me.Button20.TabIndex = 5
-        Me.Button20.Text = "25 mm/s"
-        Me.Button20.UseVisualStyleBackColor = True
+        Me.ButtonFreeze.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonFreeze.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonFreeze.Location = New System.Drawing.Point(172, 79)
+        Me.ButtonFreeze.Name = "ButtonFreeze"
+        Me.ButtonFreeze.Size = New System.Drawing.Size(147, 59)
+        Me.ButtonFreeze.TabIndex = 6
+        Me.ButtonFreeze.Text = "FREEZE"
+        Me.ButtonFreeze.UseVisualStyleBackColor = True
         '
-        'Button15
+        'ButtonMm
         '
-        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.Location = New System.Drawing.Point(631, 14)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(147, 59)
-        Me.Button15.TabIndex = 4
-        Me.Button15.Text = "3 STEP"
-        Me.Button15.UseVisualStyleBackColor = True
+        Me.ButtonMm.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonMm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonMm.Location = New System.Drawing.Point(19, 79)
+        Me.ButtonMm.Name = "ButtonMm"
+        Me.ButtonMm.Size = New System.Drawing.Size(147, 59)
+        Me.ButtonMm.TabIndex = 5
+        Me.ButtonMm.Text = "25 mm/s"
+        Me.ButtonMm.UseVisualStyleBackColor = True
+        '
+        'ButtonStep
+        '
+        Me.ButtonStep.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonStep.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonStep.Location = New System.Drawing.Point(631, 14)
+        Me.ButtonStep.Name = "ButtonStep"
+        Me.ButtonStep.Size = New System.Drawing.Size(147, 59)
+        Me.ButtonStep.TabIndex = 4
+        Me.ButtonStep.Text = "3 STEP"
+        Me.ButtonStep.UseVisualStyleBackColor = True
         '
         'Button14
         '
@@ -1004,69 +1077,109 @@ Partial Class Dashboard
         Me.Button14.Text = "1 : 1"
         Me.Button14.UseVisualStyleBackColor = True
         '
-        'Button12
+        'ButtonStart
         '
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(172, 14)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(147, 59)
-        Me.Button12.TabIndex = 1
-        Me.Button12.Text = "PAUSE"
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.ButtonStart.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonStart.Location = New System.Drawing.Point(325, 14)
+        Me.ButtonStart.Name = "ButtonStart"
+        Me.ButtonStart.Size = New System.Drawing.Size(147, 59)
+        Me.ButtonStart.TabIndex = 2
+        Me.ButtonStart.Text = "START"
+        Me.ButtonStart.UseVisualStyleBackColor = True
         '
-        'Button11
+        'ButtonStandby
         '
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Location = New System.Drawing.Point(19, 14)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(147, 59)
-        Me.Button11.TabIndex = 0
-        Me.Button11.Text = "STOP"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.ButtonStandby.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonStandby.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonStandby.Location = New System.Drawing.Point(172, 14)
+        Me.ButtonStandby.Name = "ButtonStandby"
+        Me.ButtonStandby.Size = New System.Drawing.Size(147, 59)
+        Me.ButtonStandby.TabIndex = 1
+        Me.ButtonStandby.Text = "STANDBY"
+        Me.ButtonStandby.UseVisualStyleBackColor = True
         '
-        'Button13
+        'ButtonStop
         '
-        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(325, 14)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(147, 59)
-        Me.Button13.TabIndex = 2
-        Me.Button13.Text = "START"
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.ButtonStop.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.ButtonStop.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonStop.Location = New System.Drawing.Point(19, 14)
+        Me.ButtonStop.Name = "ButtonStop"
+        Me.ButtonStop.Size = New System.Drawing.Size(147, 59)
+        Me.ButtonStop.TabIndex = 0
+        Me.ButtonStop.Text = "STOP"
+        Me.ButtonStop.UseVisualStyleBackColor = True
         '
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.Panel4.Controls.Add(Me.Label15)
+        Me.Panel4.Controls.Add(Me.LabelReceived)
+        Me.Panel4.Controls.Add(Me.LabelPort)
+        Me.Panel4.Controls.Add(Me.ButtonDisconnect)
+        Me.Panel4.Controls.Add(Me.ButtonConnect)
+        Me.Panel4.Controls.Add(Me.ComboBoxPort)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel4.Location = New System.Drawing.Point(266, 798)
+        Me.Panel4.Location = New System.Drawing.Point(266, 767)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(796, 23)
+        Me.Panel4.Size = New System.Drawing.Size(796, 41)
         Me.Panel4.TabIndex = 78
         '
-        'Label15
+        'LabelReceived
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label15.Location = New System.Drawing.Point(711, 6)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(68, 13)
-        Me.Label15.TabIndex = 7
-        Me.Label15.Text = "02:49:03 PM"
+        Me.LabelReceived.AutoSize = True
+        Me.LabelReceived.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelReceived.ForeColor = System.Drawing.Color.LimeGreen
+        Me.LabelReceived.Location = New System.Drawing.Point(627, 12)
+        Me.LabelReceived.Name = "LabelReceived"
+        Me.LabelReceived.Size = New System.Drawing.Size(80, 20)
+        Me.LabelReceived.TabIndex = 75
+        Me.LabelReceived.Text = "SPO2 : 0"
         '
-        'Button16
+        'LabelPort
         '
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Button16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.Location = New System.Drawing.Point(631, 79)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(147, 59)
-        Me.Button16.TabIndex = 9
-        Me.Button16.Text = "DEMO"
-        Me.Button16.UseVisualStyleBackColor = True
+        Me.LabelPort.AutoSize = True
+        Me.LabelPort.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelPort.ForeColor = System.Drawing.Color.Red
+        Me.LabelPort.Location = New System.Drawing.Point(364, 12)
+        Me.LabelPort.Name = "LabelPort"
+        Me.LabelPort.Size = New System.Drawing.Size(123, 20)
+        Me.LabelPort.TabIndex = 74
+        Me.LabelPort.Text = "DISCONNECT"
+        '
+        'ButtonDisconnect
+        '
+        Me.ButtonDisconnect.Location = New System.Drawing.Point(264, 12)
+        Me.ButtonDisconnect.Name = "ButtonDisconnect"
+        Me.ButtonDisconnect.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDisconnect.TabIndex = 73
+        Me.ButtonDisconnect.Text = "Disconnect"
+        Me.ButtonDisconnect.UseVisualStyleBackColor = True
+        '
+        'ButtonConnect
+        '
+        Me.ButtonConnect.Location = New System.Drawing.Point(183, 12)
+        Me.ButtonConnect.Name = "ButtonConnect"
+        Me.ButtonConnect.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonConnect.TabIndex = 72
+        Me.ButtonConnect.Text = "Connect"
+        Me.ButtonConnect.UseVisualStyleBackColor = True
+        '
+        'ComboBoxPort
+        '
+        Me.ComboBoxPort.FormattingEnabled = True
+        Me.ComboBoxPort.Location = New System.Drawing.Point(19, 14)
+        Me.ComboBoxPort.Name = "ComboBoxPort"
+        Me.ComboBoxPort.Size = New System.Drawing.Size(147, 21)
+        Me.ComboBoxPort.TabIndex = 71
+        '
+        'TimerWatch
+        '
+        Me.TimerWatch.Enabled = True
+        Me.TimerWatch.Interval = 1
+        '
+        'TimerReceived
+        '
+        Me.TimerReceived.Interval = 1
         '
         'Dashboard
         '
@@ -1080,12 +1193,13 @@ Partial Class Dashboard
         Me.Controls.Add(Me.Panel14)
         Me.Controls.Add(Me.Panel13)
         Me.Controls.Add(Me.PanelTop)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.PanelLeft)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Dashboard"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Dashboard"
-        Me.Panel1.ResumeLayout(False)
+        Me.PanelLeft.ResumeLayout(False)
+        Me.PanelLeft.PerformLayout()
         Me.Panel10.ResumeLayout(False)
         Me.Panel10.PerformLayout()
         Me.Panel11.ResumeLayout(False)
@@ -1112,12 +1226,12 @@ Partial Class Dashboard
         Me.Panel2.PerformLayout()
         Me.PanelTop.ResumeLayout(False)
         Me.PanelTop.PerformLayout()
-        CType(Me.Chart3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Chart1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel13.ResumeLayout(False)
         Me.Panel14.ResumeLayout(False)
-        CType(Me.Chart1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel15.ResumeLayout(False)
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel15.ResumeLayout(False)
+        CType(Me.Chart3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel12.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
@@ -1125,10 +1239,10 @@ Partial Class Dashboard
 
     End Sub
 
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents PanelLeft As Panel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents PanelTop As Panel
-    Friend WithEvents Label1 As Label
+    Friend WithEvents LabelType As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
@@ -1136,26 +1250,26 @@ Partial Class Dashboard
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label6 As Label
     Friend WithEvents Button_Exit As Button
-    Friend WithEvents Chart3 As DataVisualization.Charting.Chart
+    Friend WithEvents Chart1 As DataVisualization.Charting.Chart
     Friend WithEvents Panel13 As Panel
     Friend WithEvents Panel14 As Panel
-    Friend WithEvents Chart1 As DataVisualization.Charting.Chart
-    Friend WithEvents Panel15 As Panel
     Friend WithEvents Chart2 As DataVisualization.Charting.Chart
+    Friend WithEvents Panel15 As Panel
+    Friend WithEvents Chart3 As DataVisualization.Charting.Chart
     Friend WithEvents Panel7 As Panel
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button8 As Button
+    Friend WithEvents LabelAmpEcg As Label
+    Friend WithEvents ButtonMinEcg As Button
+    Friend WithEvents ButtonPlusEcg As Button
     Friend WithEvents Label16 As Label
     Friend WithEvents Panel6 As Panel
     Friend WithEvents Label12 As Label
     Friend WithEvents Panel5 As Panel
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents LabelIDControl2 As Label
+    Friend WithEvents LabelIDControl1 As Label
+    Friend WithEvents ButtonIDMin2 As Button
+    Friend WithEvents ButtonIDMin1 As Button
+    Friend WithEvents ButtonIDPlus2 As Button
+    Friend WithEvents ButtonIDPlus1 As Button
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
@@ -1163,17 +1277,16 @@ Partial Class Dashboard
     Friend WithEvents Label28 As Label
     Friend WithEvents Panel10 As Panel
     Friend WithEvents Label23 As Label
-    Friend WithEvents Label26 As Label
-    Friend WithEvents Label27 As Label
+    Friend WithEvents LabelDateDay As Label
     Friend WithEvents Panel11 As Panel
     Friend WithEvents Label30 As Label
     Friend WithEvents Panel9 As Panel
     Friend WithEvents Label20 As Label
-    Friend WithEvents Label22 As Label
+    Friend WithEvents LabelPressure As Label
     Friend WithEvents Label21 As Label
     Friend WithEvents Label24 As Label
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button7 As Button
+    Friend WithEvents ButtonMinPressure As Button
+    Friend WithEvents ButtonPlusPressure As Button
     Friend WithEvents Panel8 As Panel
     Friend WithEvents Label19 As Label
     Friend WithEvents Panel17 As Panel
@@ -1181,24 +1294,37 @@ Partial Class Dashboard
     Friend WithEvents Label31 As Label
     Friend WithEvents Label32 As Label
     Friend WithEvents Label33 As Label
-    Friend WithEvents Label34 As Label
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
+    Friend WithEvents LabelAmpSpo As Label
+    Friend WithEvents ButtonMin As Button
+    Friend WithEvents ButtonPlus As Button
     Friend WithEvents Label35 As Label
     Friend WithEvents Panel18 As Panel
     Friend WithEvents Label36 As Label
-    Friend WithEvents Label13 As Label
+    Friend WithEvents LabelTimerCompressor As Label
     Friend WithEvents Panel12 As Panel
-    Friend WithEvents Button17 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Button20 As Button
-    Friend WithEvents Button15 As Button
+    Friend WithEvents ButtonPatient As Button
+    Friend WithEvents ButtonSave As Button
+    Friend WithEvents ButtonFreeze As Button
+    Friend WithEvents ButtonMm As Button
+    Friend WithEvents ButtonStep As Button
     Friend WithEvents Button14 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button13 As Button
+    Friend WithEvents ButtonStandby As Button
+    Friend WithEvents ButtonStop As Button
+    Friend WithEvents ButtonStart As Button
     Friend WithEvents Panel4 As Panel
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Button16 As Button
+    Friend WithEvents LabelTime As Label
+    Friend WithEvents ButtonDemo As Button
+    Friend WithEvents TimerWatch As Timer
+    Friend WithEvents Panel_I3 As Panel
+    Friend WithEvents Panel_I2 As Panel
+    Friend WithEvents Panel_I1 As Panel
+    Friend WithEvents LabelB As Label
+    Friend WithEvents LabelA As Label
+    Friend WithEvents ButtonDisconnect As Button
+    Friend WithEvents ButtonConnect As Button
+    Friend WithEvents ComboBoxPort As ComboBox
+    Friend WithEvents SerialPort1 As IO.Ports.SerialPort
+    Friend WithEvents LabelPort As Label
+    Friend WithEvents LabelReceived As Label
+    Friend WithEvents TimerReceived As Timer
 End Class

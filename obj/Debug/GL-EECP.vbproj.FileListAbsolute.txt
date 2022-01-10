@@ -1,0 +1,29 @@
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\bin\Debug\GL-EECP.exe
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\bin\Debug\GL-EECP.pdb
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\bin\Debug\GL-EECP.xml
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL-EECP.vbproj.AssemblyReference.cache
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL_EECP.Resources.resources
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL-EECP.vbproj.GenerateResource.cache
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL-EECP.vbproj.CoreCompileInputs.cache
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL-EECP.exe
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL-EECP.xml
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL-EECP.pdb
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL_EECP.Dashboard.resources
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL_EECP.Demo.resources
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL_EECP.Patient.resources
+C:\Users\IT Division\Documents\Visual Studio 2019\Projects\GL-EECP\obj\Debug\GL_EECP.Patient_Information.resources
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\bin\Debug\GL-EECP.exe
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\bin\Debug\GL-EECP.pdb
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\bin\Debug\GL-EECP.xml
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL-EECP.vbproj.AssemblyReference.cache
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL_EECP.Dashboard.resources
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL_EECP.Demo.resources
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL_EECP.Resources.resources
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL_EECP.Patient_Information.resources
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL_EECP.Patient.resources
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL-EECP.vbproj.GenerateResource.cache
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL-EECP.vbproj.CoreCompileInputs.cache
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL-EECP.exe
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL-EECP.xml
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL-EECP.pdb
+C:\Users\f4uz1\OneDrive\Documents\Github\GL-EECP\obj\Debug\GL_EECP.ReceivedData.resources

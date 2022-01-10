@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("GL-EECP")>
+<Assembly: AssemblyTitle("EECP")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyCompany("PT GERLINK UTAMA MANDIRI")>
 <Assembly: AssemblyProduct("GL-EECP")>
-<Assembly: AssemblyCopyright("Copyright ©  2021")>
-<Assembly: AssemblyTrademark("")>
+<Assembly: AssemblyCopyright("By Fauzi Mauladani  -  Copyright ©  2021")>
+<Assembly: AssemblyTrademark("Gerlink Utama Mandiri")>
 
 <Assembly: ComVisible(False)>
 
